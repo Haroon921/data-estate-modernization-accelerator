@@ -78,7 +78,7 @@ The [editable calculator overview](enablement/business-case-calculator-overview.
 ### 1. Clone and configure
 
 ```bash
-git clone https://github.com/harash_microsoft/data-estate-modernization-accelerator.git
+git clone https://github.com/Haroon921/data-estate-modernization-accelerator.git
 cd data-estate-modernization-accelerator
 
 python -m venv .venv
