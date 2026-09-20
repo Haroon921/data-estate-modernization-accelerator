@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title description">
+  <title id="title">Data Estate Modernization Accelerator architecture and workflow</title>
+  <desc id="description">SQL Server and Synapse workloads move through assess, decide, model value, migrate, validate, and modernize stages to Azure SQL, Microsoft Fabric, and OneLake.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071A2D"/>
+      <stop offset="1" stop-color="#0B2447"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0078D4"/>
+      <stop offset="1" stop-color="#00B4A6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.24"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#55D6C2"/>
+    </marker>
+    <style>
+      .eyebrow { font: 700 18px "Segoe UI", Arial, sans-serif; letter-spacing: 3px; fill: #55D6C2; }
+      .heading { font: 700 38px "Segoe UI", Arial, sans-serif; fill: #FFFFFF; }
+      .subheading { font: 400 19px "Segoe UI", Arial, sans-serif; fill: #B8C7D9; }
+      .source-label { font: 700 15px "Segoe UI", Arial, sans-serif; letter-spacing: 2px; fill: #80E1D3; }
+      .source-text { font: 600 18px "Segoe UI", Arial, sans-serif; fill: #FFFFFF; }
+      .number { font: 700 34px "Segoe UI", Arial, sans-serif; fill: #55D6C2; }
+      .stage { font: 700 20px "Segoe UI", Arial, sans-serif; fill: #FFFFFF; }
+      .detail { font: 400 15px "Segoe UI", Arial, sans-serif; fill: #B8C7D9; }
+      .output { font: 600 14px "Segoe UI", Arial, sans-serif; fill: #80E1D3; }
+      .target-label { font: 700 14px "Segoe UI", Arial, sans-serif; letter-spacing: 2px; fill: #80E1D3; }
+      .target { font: 600 18px "Segoe UI", Arial, sans-serif; fill: #FFFFFF; }
+      .footer { font: 400 15px "Segoe UI", Arial, sans-serif; fill: #8FA6BF; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="760" rx="28" fill="url(#background)"/>
+  <rect x="0" y="0" width="1600" height="8" rx="4" fill="url(#accent)"/>
+
+  <text x="56" y="65" class="eyebrow">ARCHITECTURE + DELIVERY WORKFLOW</text>
+  <text x="56" y="112" class="heading">From estate signals to validated modernization</text>
+  <text x="56" y="146" class="subheading">One connected system for technical decisions, investment evidence, migration execution, and governed data.</text>
+
+  <g transform="translate(1120 48)">
+    <text x="0" y="18" class="source-label">SOURCE ESTATE</text>
+    <rect x="0" y="35" width="190" height="54" rx="27" fill="#12385E" stroke="#2B6EA6"/>
+    <circle cx="28" cy="62" r="10" fill="#0078D4"/>
+    <text x="50" y="69" class="source-text">SQL Server</text>
+    <rect x="205" y="35" width="190" height="54" rx="27" fill="#12385E" stroke="#238E85"/>
+    <circle cx="233" cy="62" r="10" fill="#00B4A6"/>
+    <text x="255" y="69" class="source-text">Synapse</text>
+  </g>
+
+  <line x1="152" y1="305" x2="272" y2="305" stroke="#55D6C2" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="408" y1="305" x2="528" y2="305" stroke="#55D6C2" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="664" y1="305" x2="784" y2="305" stroke="#55D6C2" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="920" y1="305" x2="1040" y2="305" stroke="#55D6C2" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1176" y1="305" x2="1296" y2="305" stroke="#55D6C2" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g transform="translate(32 210)" filter="url(#shadow)">
+    <rect width="220" height="205" rx="18" fill="#102C4D" stroke="#2B6EA6" stroke-width="2"/>
+    <rect width="7" height="205" rx="4" fill="#0078D4"/>
+    <text x="28" y="52" class="number">01</text>
+    <text x="28" y="88" class="stage">ASSESS</text>
+    <text x="28" y="120" class="detail">Inventory workloads</text>
+    <text x="28" y="143" class="detail">and readiness signals</text>
+    <rect x="24" y="165" width="172" height="26" rx="13" fill="#0A213B"/>
+    <text x="38" y="183" class="output">Inventory CSV</text>
+  </g>
+
+  <g transform="translate(288 210)" filter="url(#shadow)">
+    <rect width="220" height="205" rx="18" fill="#102C4D" stroke="#2B6EA6" stroke-width="2"/>
+    <rect width="7" height="205" rx="4" fill="#238DE0"/>
+    <text x="28" y="52" class="number">02</text>
+    <text x="28" y="88" class="stage">DECIDE</text>
+    <text x="28" y="120" class="detail">Route each workload</text>
+    <text x="28" y="143" class="detail">with clear rationale</text>
+    <rect x="24" y="165" width="172" height="26" rx="13" fill="#0A213B"/>
+    <text x="38" y="183" class="output">Target decision</text>
+  </g>
+
+  <g transform="translate(544 210)" filter="url(#shadow)">
+    <rect width="220" height="205" rx="18" fill="#102C4D" stroke="#2B6EA6" stroke-width="2"/>
+    <rect width="7" height="205" rx="4" fill="#4AA4E8"/>
+    <text x="28" y="52" class="number">03</text>
+    <text x="28" y="88" class="stage">MODEL VALUE</text>
+    <text x="28" y="120" class="detail">Quantify cost, savings,</text>
+    <text x="28" y="143" class="detail">sizing, and payback</text>
+    <rect x="24" y="165" width="172" height="26" rx="13" fill="#0A213B"/>
+    <text x="38" y="183" class="output">Business case</text>
+  </g>
+
+  <g transform="translate(800 210)" filter="url(#shadow)">
+    <rect width="220" height="205" rx="18" fill="#103449" stroke="#238E85" stroke-width="2"/>
+    <rect width="7" height="205" rx="4" fill="#38C5B7"/>
+    <text x="28" y="52" class="number">04</text>
+    <text x="28" y="88" class="stage">MIGRATE</text>
+    <text x="28" y="120" class="detail">Deploy the landing zone</text>
+    <text x="28" y="143" class="detail">and execute runbooks</text>
+    <rect x="24" y="165" width="172" height="26" rx="13" fill="#0A2936"/>
+    <text x="38" y="183" class="output">Bicep + runbooks</text>
+  </g>
+
+  <g transform="translate(1056 210)" filter="url(#shadow)">
+    <rect width="220" height="205" rx="18" fill="#103449" stroke="#238E85" stroke-width="2"/>
+    <rect width="7" height="205" rx="4" fill="#1DB8A9"/>
+    <text x="28" y="52" class="number">05</text>
+    <text x="28" y="88" class="stage">VALIDATE</text>
+    <text x="28" y="120" class="detail">Compare counts, checksums,</text>
+    <text x="28" y="143" class="detail">and performance</text>
+    <rect x="24" y="165" width="172" height="26" rx="13" fill="#0A2936"/>
+    <text x="38" y="183" class="output">Migration evidence</text>
+  </g>
+
+  <g transform="translate(1312 210)" filter="url(#shadow)">
+    <rect width="220" height="205" rx="18" fill="#103449" stroke="#238E85" stroke-width="2"/>
+    <rect width="7" height="205" rx="4" fill="#00B4A6"/>
+    <text x="28" y="52" class="number">06</text>
+    <text x="28" y="88" class="stage">MODERNIZE</text>
+    <text x="28" y="120" class="detail">Mirror, model, govern,</text>
+    <text x="28" y="143" class="detail">and activate for AI</text>
+    <rect x="24" y="165" width="172" height="26" rx="13" fill="#0A2936"/>
+    <text x="38" y="183" class="output">Governed data</text>
+  </g>
+
+  <g transform="translate(56 492)">
+    <text x="0" y="18" class="target-label">TARGET LANDSCAPE</text>
+    <rect x="0" y="42" width="1488" height="120" rx="20" fill="#0D2947" stroke="#1D496F"/>
+    <rect x="24" y="66" width="310" height="72" rx="14" fill="#12385E"/>
+    <circle cx="58" cy="102" r="13" fill="#0078D4"/>
+    <text x="84" y="98" class="target">Azure SQL</text>
+    <text x="84" y="120" class="detail">Database | Managed Instance | VM</text>
+
+    <rect x="354" y="66" width="360" height="72" rx="14" fill="#12385E"/>
+    <circle cx="388" cy="102" r="13" fill="#00A4EF"/>
+    <text x="414" y="98" class="target">Microsoft Fabric</text>
+    <text x="414" y="120" class="detail">Warehouse | Spark | Data Factory</text>
+
+    <rect x="734" y="66" width="330" height="72" rx="14" fill="#12385E"/>
+    <circle cx="768" cy="102" r="13" fill="#00B4A6"/>
+    <text x="794" y="98" class="target">OneLake foundation</text>
+    <text x="794" y="120" class="detail">Mirroring | Medallion | Governance</text>
+
+    <rect x="1084" y="66" width="380" height="72" rx="14" fill="url(#accent)"/>
+    <text x="1116" y="98" class="target">Business-ready, AI-ready data</text>
+    <text x="1116" y="120" style="font: 400 15px 'Segoe UI', Arial, sans-serif; fill: #E8F8F6;">Validated outcomes with traceable decisions</text>
+  </g>
+
+  <text x="800" y="716" text-anchor="middle" class="footer">ASSESS  /  DECIDE  /  VALUE  /  MIGRATE  /  VALIDATE  /  MODERNIZE</text>
+</svg>

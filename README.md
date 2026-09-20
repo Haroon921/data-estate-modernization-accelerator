@@ -32,61 +32,7 @@ Modernization programs often stall between technical discovery and an actionable
 
 ## Architecture and workflow
 
-```mermaid
-flowchart TB
-    subgraph sources["SOURCE ESTATE"]
-        direction LR
-        sql[("SQL Server<br/>databases")]
-        synapse[("Synapse<br/>workloads")]
-    end
-
-    subgraph plan["DISCOVER AND PLAN"]
-        direction LR
-        assess["01  ASSESS<br/>Inventory and readiness"]
-        decide{"02  DECIDE<br/>Explainable routing"}
-        value["03  MODEL VALUE<br/>TCO, savings, payback"]
-        assess --> decide --> value
-    end
-
-    subgraph deliver["DELIVER WITH EVIDENCE"]
-        direction LR
-        migrate["04  DEPLOY + MIGRATE<br/>Bicep and runbooks"]
-        validate["05  VALIDATE<br/>Counts, checksums, timing"]
-        modernize["06  MODERNIZE<br/>Mirror, model, govern"]
-        migrate --> validate --> modernize
-    end
-
-    subgraph outcomes["TARGET OUTCOMES"]
-        direction LR
-        azuresql[("Azure SQL<br/>Database | MI | VM")]
-        fabric[("Microsoft Fabric<br/>Warehouse | Spark | Data Factory")]
-        onelake[("OneLake<br/>Medallion | Governance | AI")]
-    end
-
-    sql --> assess
-    synapse --> assess
-    value --> migrate
-    modernize --> azuresql
-    modernize --> fabric
-    fabric --> onelake
-    azuresql -. "Mirror when supported" .-> onelake
-
-    decide -. "Target + rationale" .-> decisionArtifact["Decision record"]
-    value -. "Financial case" .-> businessArtifact["Executive workbook"]
-    validate -. "Migration proof" .-> evidenceArtifact["Reconciliation evidence"]
-
-    classDef source fill:#F3F2F1,stroke:#605E5C,color:#201F1E,stroke-width:1px
-    classDef planning fill:#EAF3FB,stroke:#0078D4,color:#0B2447,stroke-width:2px
-    classDef delivery fill:#E6F7F4,stroke:#00B4A6,color:#0B2447,stroke-width:2px
-    classDef target fill:#0B2447,stroke:#00B4A6,color:#FFFFFF,stroke-width:2px
-    classDef artifact fill:#FFF4CE,stroke:#D83B01,color:#323130,stroke-dasharray: 4 3
-
-    class sql,synapse source
-    class assess,decide,value planning
-    class migrate,validate,modernize delivery
-    class azuresql,fabric,onelake target
-    class decisionArtifact,businessArtifact,evidenceArtifact artifact
-```
+![Data Estate Modernization Accelerator architecture and delivery workflow](docs/assets/architecture-workflow.svg)
 
 > **One connected delivery system:** every recommendation is traceable to assessment evidence, every investment decision is backed by an editable model, and every migration ends with measurable validation.
 
