@@ -1,0 +1,100 @@
+{
+  "title": "Data Estate Modernization Accelerator - Executive Overview",
+  "output": "data-estate-modernization-overview.pptx",
+  "footer": "Data Estate Modernization Accelerator  |  Assess -> Decide -> Migrate -> Validate -> Modernize",
+  "header": {
+    "tag": "TECHNICAL ACCELERATOR",
+    "title": "Two Paths to an AI-Ready Data Estate",
+    "subtitle": "A repeatable engineering motion from estate discovery to validated modernization",
+    "badge": "OVERVIEW"
+  },
+  "pathways": [
+    {
+      "tag": "SQL ESTATE",
+      "audience": "DBAs + Platform Teams",
+      "accent": "0078D4",
+      "headline": [
+        {
+          "t": "Move aging SQL workloads ",
+          "bold": true
+        },
+        {
+          "t": "to the right Azure target with an "
+        },
+        {
+          "t": "evidence-led migration plan",
+          "bold": true,
+          "accent": true
+        }
+      ],
+      "approach": "Assess -> Azure SQL / MI / VM",
+      "kpi": "Success: workloads assessed, savings identified, migrations validated",
+      "chips": {
+        "label": "Reusable assets",
+        "items": [
+          "Inventory",
+          "Router",
+          "TCO model",
+          "Bicep",
+          "Reconciliation"
+        ]
+      }
+    },
+    {
+      "tag": "SYNAPSE -> FABRIC",
+      "audience": "Data + Analytics Teams",
+      "accent": "00B4A6",
+      "headline": [
+        {
+          "t": "Modernize warehouse, Spark, and pipeline workloads ",
+          "bold": true
+        },
+        {
+          "t": "on "
+        },
+        {
+          "t": "Microsoft Fabric and OneLake",
+          "bold": true,
+          "accent": true
+        }
+      ],
+      "approach": "Migrate -> Mirror -> Medallion",
+      "kpi": "Success: workloads migrated, time-to-value reduced, governed data reused",
+      "goal": {
+        "label": "Target outcome",
+        "text": "A governed, analytics- and AI-ready data foundation"
+      }
+    }
+  ],
+  "bottom": {
+    "work": {
+      "title": "THE DELIVERY MOTION",
+      "bullets": [
+        "Assess the estate and route each workload",
+        "Quantify TCO, savings, sizing, and payback",
+        "Deploy, migrate, reconcile, and govern",
+        {
+          "text": "Keep every decision explainable and reviewable",
+          "highlight": true
+        }
+      ]
+    },
+    "vehicle": {
+      "icon": ">",
+      "name": "1-Day Workshop",
+      "subtitle": "Hands-on enablement",
+      "note": "6 labs: assessment through governed Gold data"
+    },
+    "ask": {
+      "title": "GET STARTED",
+      "bullets": [
+        "Nominate a technical owner",
+        "Select representative SQL and Synapse workloads",
+        {
+          "text": "Run a 2-week assessment sprint",
+          "highlight": true
+        }
+      ]
+    }
+  }
+}

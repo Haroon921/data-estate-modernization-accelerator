@@ -54,6 +54,12 @@ SQL Server / Synapse
   [6. Modernize] ---------> OneLake + medallion + governance
 ```
 
+## Executive overview
+
+[![Data Estate Modernization Accelerator overview](enablement/assets/data-estate-modernization-overview.png)](enablement/data-estate-modernization-overview.pptx)
+
+Use the [editable PowerPoint overview](enablement/data-estate-modernization-overview.pptx) to introduce the two modernization paths, delivery motion, workshop, and recommended next step. The [PNG preview](enablement/assets/data-estate-modernization-overview.png) is ready for sharing in documentation, email, or internal channels.
+
 ## Quick start
 
 ### Prerequisites

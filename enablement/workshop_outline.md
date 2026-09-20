@@ -1,5 +1,7 @@
 ## Partner workshop: Data Estate Modernization (1 day)
 
+Start the session with the [Data Estate Modernization Accelerator overview](data-estate-modernization-overview.pptx). A [PNG preview](assets/data-estate-modernization-overview.png) is also available for invitations and internal communications.
+
 | Block | Content | Lab |
 |---|---|---|
 | 1. Why now (45m) | SQL end of support/renewal, Synapse->Fabric momentum, AI-ready data | - |
