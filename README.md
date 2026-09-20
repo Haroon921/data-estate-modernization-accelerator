@@ -1,6 +1,5 @@
 # Data Estate Modernization Accelerator
 
-[![CI](https://github.com/harash_microsoft/data-estate-modernization-accelerator/actions/workflows/ci.yml/badge.svg)](https://github.com/harash_microsoft/data-estate-modernization-accelerator/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-0078D4.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![Microsoft Fabric](https://img.shields.io/badge/Microsoft-Fabric-742774.svg)](https://learn.microsoft.com/fabric/)
