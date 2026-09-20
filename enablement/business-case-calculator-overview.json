@@ -66,8 +66,8 @@
     "vehicle": {
       "icon": "$",
       "name": "Editable Excel",
-      "subtitle": "5 connected worksheets",
-      "note": "Inputs | SQL TCO | Fabric SKUs | Workloads | Summary"
+      "subtitle": "6 connected worksheets",
+      "note": "Inputs | SQL TCO | Fabric | Workloads | Sensitivity | Summary"
     },
     "ask": {
       "title": "USE IT IN DISCOVERY",
