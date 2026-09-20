@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test and tooling caches
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and outputs
+.env
+.env.*
+config.json
+routed.csv
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Office temporary files
+~$*.xlsx

@@ -1,0 +1,9 @@
+workload_id,source_type,name,size_gb,uses_sql_agent,uses_cross_db,uses_clr,uses_linked_servers,uses_filestream,notes
+W001,sql_server,ERP-Core,850,true,true,false,false,false,SQL 2016 end of support
+W002,sql_server,HR-App,60,false,false,false,false,false,simple OLTP
+W003,sql_server,DocStore,1200,false,false,false,false,true,uses FILESTREAM
+W004,sql_server,Telemetry,6500,false,false,false,false,false,large single db
+W005,synapse_dedicated,EDW-Pool,9000,false,false,false,false,false,DW1000c
+W006,synapse_spark,Feature-Notebooks,0,false,false,false,false,false,PySpark
+W007,synapse_pipeline,Nightly-ETL,0,false,false,false,false,false,45 pipelines
+W008,ssis,Legacy-SSIS,0,false,false,false,false,false,120 packages

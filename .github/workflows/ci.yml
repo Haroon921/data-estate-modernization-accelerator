@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python-smoke-tests:
+    name: Python smoke tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+
+      - name: Install workbook dependency
+        run: python -m pip install "openpyxl>=3.1,<4"
+
+      - name: Compile Python sources
+        run: python -m compileall business-case decide modernize validate
+
+      - name: Run workload router smoke test
+        run: |
+          python decide/router.py assess/sample_inventory.csv > routed.csv
+          test "$(wc -l < routed.csv)" -eq 9
+          grep -q "Azure SQL Managed Instance" routed.csv
+          grep -q "Fabric Warehouse" routed.csv
+
+      - name: Build business-case workbook
+        working-directory: business-case
+        run: |
+          python build_calc.py
+          test -s modernization_business_case.xlsx

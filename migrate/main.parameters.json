@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "fabricCapacityName": { "value": "fabcapcontosodev" },
+    "fabricSku": { "value": "F8" },
+    "fabricAdmins": { "value": ["admin@contoso.com"] },
+    "sqlServerName": { "value": "contoso-sql-dev" },
+    "sqlAdminGroupName": { "value": "sg-sql-admins" },
+    "sqlAdminGroupObjectId": { "value": "00000000-0000-0000-0000-000000000000" }
+  }
+}
