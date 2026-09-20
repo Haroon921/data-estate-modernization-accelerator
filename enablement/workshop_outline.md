@@ -1,6 +1,6 @@
 ## Partner workshop: Data Estate Modernization (1 day)
 
-Start the session with the [Data Estate Modernization Accelerator overview](data-estate-modernization-overview.pptx). A [PNG preview](assets/data-estate-modernization-overview.png) is also available for invitations and internal communications.
+Start the session with the [Data Estate Modernization Accelerator overview](data-estate-modernization-overview.pptx). Use the [business-case calculator overview](business-case-calculator-overview.pptx) for the calculator module. PNG previews are available in [`assets/`](assets/) for invitations and internal communications.
 
 | Block | Content | Lab |
 |---|---|---|

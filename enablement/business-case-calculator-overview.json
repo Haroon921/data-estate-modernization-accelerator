@@ -1,0 +1,84 @@
+{
+  "title": "Data Estate Modernization Business-Case Calculator",
+  "output": "business-case-calculator-overview.pptx",
+  "footer": "Illustrative outputs only  |  Replace yellow cells with validated customer inputs and current Azure pricing",
+  "header": {
+    "tag": "BUSINESS-CASE CALCULATOR",
+    "title": "Turn Modernization Choices into an Investment Case",
+    "subtitle": "A transparent Excel model for cost, savings, sizing, and payback conversations",
+    "badge": "EXCEL"
+  },
+  "pathways": [
+    {
+      "tag": "SQL ECONOMICS",
+      "audience": "Renew vs. Migrate",
+      "accent": "0078D4",
+      "headline": [
+        {
+          "t": "Compare on-premises renewal with Azure SQL ",
+          "bold": true
+        },
+        {
+          "t": "using editable cost and discount assumptions"
+        }
+      ],
+      "approach": "Licensing + infrastructure + migration",
+      "kpi": "Illustrative result: $454K 3-year net savings",
+      "goal": {
+        "label": "Illustrative payback",
+        "text": "5.4 months on a 64-core, 20-database scenario"
+      }
+    },
+    {
+      "tag": "FABRIC ECONOMICS",
+      "audience": "Synapse -> Fabric",
+      "accent": "00B4A6",
+      "headline": [
+        {
+          "t": "Model Fabric capacity by workload, SKU, and utilization ",
+          "bold": true
+        },
+        {
+          "t": "before committing to a target design"
+        }
+      ],
+      "approach": "Workload cost -> SKU -> CU utilization",
+      "kpi": "Illustrative result: $231K annual savings",
+      "goal": {
+        "label": "Scenario coverage",
+        "text": "Warehouse, Spark, and data integration workloads"
+      }
+    }
+  ],
+  "bottom": {
+    "work": {
+      "title": "WHAT THE MODEL CONNECTS",
+      "bullets": [
+        "Technical inventory and in-scope workload count",
+        "Current run cost, Azure benefits, and reservations",
+        "Fabric SKU, CU-hour price, and expected utilization",
+        {
+          "text": "Executive summary updates automatically",
+          "highlight": true
+        }
+      ]
+    },
+    "vehicle": {
+      "icon": "$",
+      "name": "Editable Excel",
+      "subtitle": "5 connected worksheets",
+      "note": "Inputs | SQL TCO | Fabric SKUs | Workloads | Summary"
+    },
+    "ask": {
+      "title": "USE IT IN DISCOVERY",
+      "bullets": [
+        "Replace every yellow placeholder",
+        "Validate pricing, sizing, and support assumptions",
+        {
+          "text": "Agree the scenario with finance and engineering",
+          "highlight": true
+        }
+      ]
+    }
+  }
+}
