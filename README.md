@@ -54,23 +54,6 @@ The [editable calculator overview](enablement/business-case-calculator-overview.
 
 The upgraded workbook includes executive charts, input-validation status, evidence sources, and downside/base/upside sensitivity analysis. Follow the [visual calculator walkthrough](docs/calculator-walkthrough.md), download the [editable walkthrough deck](enablement/calculator-walkthrough.pptx), or open the [generated Excel model](business-case/modernization_business_case.xlsx).
 
-## Modernize360 Fabric App
-
-[![Modernize360 executive overview](modernize360/docs/modernize360-overview.png)](modernize360/README.md)
-
-[Modernize360](modernize360/README.md) turns the accelerator's assessment, recommendation, migration-wave, business-case, and decision assets into a professional Microsoft Fabric App experience. The current application uses clearly labelled sample data so customer and partner teams can review the complete workflow before connecting production sources.
-
-The application includes:
-
-- Executive modernization KPIs and portfolio visualizations
-- Searchable workload inventory and readiness assessments
-- Evidence-led Azure and Microsoft Fabric target recommendations
-- Quick-win, moderate-complexity, and strategic migration waves
-- Azure ACR, partner opportunity, risk-reduction, and wave-value views
-- Accountable decision and next-action tracking
-
-See the [Modernize360 setup, validation, and architecture guide](modernize360/README.md) to run the authenticated Rayfin app locally.
-
 ## Quick start
 
 ### Prerequisites
@@ -164,7 +147,6 @@ Use the assets in `modernize/` to introduce OneLake mirroring, a medallion data 
 |-- enablement/       # Workshop and stakeholder enablement material
 |-- migrate/          # Bicep landing zone and migration runbooks
 |-- modernize/        # Mirroring, medallion, and governance guidance
-|-- modernize360/     # Microsoft Fabric App for modernization decisions
 |-- validate/         # Source-to-target reconciliation framework
 |-- .github/          # CI, issue templates, and pull request template
 |-- CONTRIBUTING.md   # Contributor workflow and quality expectations
